@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css" />
+    <script defer src="/auth-page/reg.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h1>Please register</h1>
+        <form>
+          <p>write your name:</p>
+          <input type="text" id="name" />
+          <p>write your email:</p>
+          <input type="email" id="email" />
+          <p>create your password:</p>
+          <input type="password" id="password" />
+          <p style="color: red; display: none" id="error">
+            password is not match
+          </p>
+          <p>repeat password:</p>
+          <input type="password" id="repeat-password" />
+          <button id="register-button">register</button>
+        </form>
+        <p>
+          do you have an account? then <a href="/auth-page/auth.html">sig in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
